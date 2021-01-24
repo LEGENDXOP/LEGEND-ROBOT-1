@@ -1,5 +1,6 @@
 future
 emoji
+heroku3==4.2.3
 lxml
 numpy
 gitpython==3.1.11
