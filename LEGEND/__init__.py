@@ -8,7 +8,7 @@ from pyrogram import Client, errors
 
 import telegram.ext as tg
 from telethon import TelegramClient
-
+UPSTREAM_REPO_URL = "https://github.com/Falcon_Inc/LEGEND-ROBOT"
 StartTime = time.time()
 
 # enable logging
@@ -31,7 +31,6 @@ ENV = bool(os.environ.get('ENV', False))
 
 if ENV:
     TOKEN = os.environ.get('TOKEN', None)
-
     try:
         OWNER_ID = int(os.environ.get('OWNER_ID', None))
     except ValueError:
