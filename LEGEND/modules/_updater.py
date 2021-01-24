@@ -8,7 +8,7 @@ import heroku3
 from LEGEND import OWNER_ID, update, UPSTREAM_REPO_URL
 
 
-# UPSTREAM_REPO_URL = "https://github.com/MissLEGENDRobot/MissLEGENDRobot.git"
+# UPSTREAM_REPO_URL = "https://github.com/Falcon-Inc/LEGEND-ROBOT"
 HEROKU_APP_NAME = None
 HEROKU_API_KEY = None
 
